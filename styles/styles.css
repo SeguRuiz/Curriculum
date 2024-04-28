@@ -70,7 +70,7 @@ body {
 
   background: lightseagreen;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
 }
 /* Navs textos/Divs */
 
@@ -150,11 +150,48 @@ body {
 /* Divs footer */
 
 .infoIco {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto  ;
   background-color: lightblue;
-  border: 2px solid black;
+  ;
 }
 
 .iconosInfo {
+  
   background-color: lightblue;
-  border: 2px solid black;
+ 
+}
+
+/* Div footer 1 */
+
+.footerTi{
+font-size: 20px;
+display: flex;
+justify-content: start;
+align-items: end;
+background-color: aqua;
+
+}
+.subtitulo1{
+width: 50%;
+background-color: red;
+}
+
+.subtitulo2{
+width: 50%;
+background-color: red;
+}
+
+.footerLista1{
+display: flex;
+justify-content: start;
+background-color: blue;
+
+}
+
+.footerLista2{
+display: flex;
+justify-content: start;
+background-color: blueviolet;
+  
 }
