@@ -32,18 +32,17 @@ body {
 /* Divs infos*/
 .divsInfoN {
   grid-area: nav;
-  
   background: lightcoral;
+  display: grid;
 }
 
 .divsInfoG {
   grid-area: grafico;
-  text-align: center;
   background: lightblue;
   border-top: 2px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  
 }
 
 .divsInfoD {
@@ -67,51 +66,65 @@ body {
 
 .divsInfoF {
   grid-area: footer;
-  text-align: center;
+  
   background: lightseagreen;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto;
 }
-
 /* Navs textos/Divs */
 
-.tituloN {
-  grid-column: 1 / span1;
-  font-size: 30px;
- 
-  text-align: center;
-  background-color: aqua;
-}
-
-.subNav {
-
-background-color: blue;
-height: 40%;
- display: grid;
- grid-template-columns: 40% 20% 40%  ;
-grid-template-rows: auto auto auto;
-
-}
-.infoSubT{
-grid-column: 1 / span1 ;  
-border: 2px solid black;
-  background-color: lightblue;
-
-}
-.infoSubN1 {
+.Nombre{
   
+  background-color: lightcoral;
   border: 2px solid black;
-  background-color: lightblue;
 }
-.infoSubN2 {
-  
+
+.subTitulo{
+  background-color: lightcoral;
   border: 2px solid black;
-  background-color: lightblue;
 }
-.infoSubN3 {
-  
+
+.telefono{
+  background-color: lightcoral;
   border: 2px solid black;
+}
+
+.correo{
+  background-color: lightcoral;
+  border: 2px solid black;
+}
+
+.ubicacion{
+  background-color: lightcoral;
+  border: 2px solid black;
+}
+
+/*graficos divs */
+
+.grafTitulo{
+  text-align: start;
+  display: flex;
+  align-items: center;
+  grid-column: 1 / span4;
   background-color: lightblue;
+  border-bottom: 2px solid black;
+}
+.grafico{
+  
+  background-color: lightblue;
+  border: 2px solid black;
+}
+
+/* Divs footer */
+
+.infoIco{
+  
+  background-color: lightblue;
+  border: 2px solid black;
+}
+
+.iconosInfo{
+  
+  background-color: lightblue;
+  border: 2px solid black;
 }
