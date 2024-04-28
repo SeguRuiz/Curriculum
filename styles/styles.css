@@ -34,6 +34,8 @@ body {
   grid-area: nav;
   background: lightcoral;
   display: grid;
+  grid-template-columns: auto auto ;
+  grid-template-rows: 50% 30% auto;
 }
 
 .divsInfoG {
@@ -41,8 +43,7 @@ body {
   background: lightblue;
   border-top: 2px solid black;
   display: grid;
-  grid-template-columns: auto auto auto auto ;
-  
+  grid-template-columns: auto auto auto auto;
 }
 
 .divsInfoD {
@@ -66,42 +67,53 @@ body {
 
 .divsInfoF {
   grid-area: footer;
-  
+
   background: lightseagreen;
   display: grid;
   grid-template-columns: auto auto;
 }
 /* Navs textos/Divs */
 
-.Nombre{
+.Nombre {
+  font-size: 60px;
   
+  grid-column: 1 / span3;
+  background-color: rgb(63, 174, 40);
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.subTitulo {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  grid-column: 1 / span3;
+  background-color: rgb(128, 156, 240);
+  border: 2px solid black;
+}
+
+.telefono {
   background-color: lightcoral;
   border: 2px solid black;
 }
 
-.subTitulo{
+.correo {
   background-color: lightcoral;
   border: 2px solid black;
 }
 
-.telefono{
-  background-color: lightcoral;
-  border: 2px solid black;
-}
-
-.correo{
-  background-color: lightcoral;
-  border: 2px solid black;
-}
-
-.ubicacion{
+.ubicacion {
   background-color: lightcoral;
   border: 2px solid black;
 }
 
 /*graficos divs */
 
-.grafTitulo{
+.grafTitulo {
+
   text-align: start;
   display: flex;
   align-items: center;
@@ -109,22 +121,19 @@ body {
   background-color: lightblue;
   border-bottom: 2px solid black;
 }
-.grafico{
-  
+.grafico {
   background-color: lightblue;
   border: 2px solid black;
 }
 
 /* Divs footer */
 
-.infoIco{
-  
+.infoIco {
   background-color: lightblue;
   border: 2px solid black;
 }
 
-.iconosInfo{
-  
+.iconosInfo {
   background-color: lightblue;
   border: 2px solid black;
 }
