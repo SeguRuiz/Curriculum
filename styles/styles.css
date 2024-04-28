@@ -75,10 +75,10 @@ body {
 /* Navs textos/Divs */
 
 .Nombre {
-  font-size: 60px;
+  font-size: 70px;
   
   grid-column: 1 / span3;
-  background-color: rgb(63, 174, 40);
+  background-color: lightcoral;
   display: flex;
   align-items: end;
   justify-content: center;
@@ -89,25 +89,46 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
   grid-column: 1 / span3;
-  background-color: rgb(128, 156, 240);
-  border: 2px solid black;
+  background-color: lightcoral;
+  
 }
 
+/*vector */
+.vector1{
+  
+}
+.vector2{
+  
+}
+
+/*vector */
 .telefono {
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+ 
   background-color: lightcoral;
-  border: 2px solid black;
+  
 }
 
+  
 .correo {
+  display: flex;
+ justify-content: center;
+ gap: 10px;
+ 
   background-color: lightcoral;
-  border: 2px solid black;
+  
 }
 
 .ubicacion {
+  display: flex;
+ justify-content: center;
+ gap: 10px;
+ 
   background-color: lightcoral;
-  border: 2px solid black;
+  
 }
 
 /*graficos divs */
