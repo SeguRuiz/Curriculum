@@ -48,13 +48,39 @@ body {
 
 .divsInfoD {
   grid-area: descripcion;
-  text-align: center;
+  display: grid;
+  grid-template-rows: 10% 45% 45%;
   background: lightgreen;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
+
+/* Contenido dentro de descripcion */
+
+.tituloD{
+background-color: aqua;
+
+}
+
+
+
+.lista1D{
+background-color: azure;
+
+}
+
+
+.lista2D{
+background-color: blue;
+
+}
+
+
+
+
+
+/* Contenido dentro de descripcion */
+
 
 .divsInfoI {
   grid-area: imagen;
@@ -150,9 +176,11 @@ body {
 /* Divs footer */
 
 .infoIco {
-  display: grid;
-  grid-template-rows: auto auto auto auto auto  ;
-  background-color: lightblue;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+
+  background-color: lightslategray;
   ;
 }
 
@@ -164,34 +192,43 @@ body {
 
 /* Div footer 1 */
 
-.footerTi{
-font-size: 20px;
-display: flex;
-justify-content: start;
-align-items: end;
-background-color: aqua;
-
-}
-.subtitulo1{
-width: 50%;
+.educacion{
+text-align: start;
 background-color: red;
-}
-
-.subtitulo2{
-width: 50%;
-background-color: red;
-}
-
-.footerLista1{
-display: flex;
-justify-content: start;
-background-color: blue;
+font-size: 17px;
+margin-bottom: 10px;
 
 }
 
-.footerLista2{
-display: flex;
-justify-content: start;
-background-color: blueviolet;
-  
+
+.listasF{
+display: grid;
+grid-template-rows: auto auto auto auto;
+background-color: ;
+
+}
+
+.subTitulo1{
+  text-align: start;
+
+  background-color: lightcoral;
+}
+
+.subTitulo2{
+text-align: start;
+  background-color: blanchedalmond
+ 
+}
+
+.ul1{
+  display: flex;
+  justify-content: start;
+
+  background-color: ;
+}
+
+.ul2{
+  display: flex;
+  justify-content: start;
+  background-color: ;
 }
