@@ -65,15 +65,39 @@ background-color: aqua;
 
 
 .lista1D{
+display: grid;
+grid-template-rows: 20% 80%;
 background-color: azure;
 
 }
 
 
 .lista2D{
+display: grid;
+grid-template-rows: 20% 80%;
 background-color: blue;
 
 }
+.titulo1D{
+background-color: brown;
+}
+.titulo2D{
+background-color: blueviolet;
+
+}
+.ul1D{
+display: flex;
+justify-content: start;
+background-color: aqua;
+
+}
+.ul2D{
+display: flex;
+justify-content: start;
+background-color: beige;
+}
+
+
 
 
 
@@ -97,6 +121,7 @@ background-color: blue;
   background: lightseagreen;
   display: grid;
   grid-template-columns: 50% 50%;
+
 }
 /* Navs textos/Divs */
 
@@ -185,7 +210,8 @@ background-color: blue;
 }
 
 .iconosInfo {
-  
+  display: grid;
+  grid-template-rows: 20% 80%;
   background-color: lightblue;
  
 }
@@ -231,4 +257,19 @@ text-align: start;
   display: flex;
   justify-content: start;
   background-color: ;
+}
+
+/* Div footer 2 */
+.hobby{
+
+background-color: aquamarine;
+
+
+}
+
+.iconos{
+
+background-color: azure;
+
+
 }
