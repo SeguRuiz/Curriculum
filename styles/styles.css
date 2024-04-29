@@ -1,0 +1,275 @@
+body {
+  text-align: center;
+}
+/*Div hoja principal*/
+.hojaBase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  border: 1px none black;
+  width: 70%;
+  margin: auto;
+  padding: 60px;
+}
+/*Div contenedor de estructura*/
+.baseCurriculum {
+  height: 1000px;
+  display: grid;
+  grid-template-areas:
+    "nav nav"
+    "grafico grafico"
+    "descripcion imagen"
+    "footer footer";
+  grid-template-rows: 25% 15% 40% 20%;
+  grid-template-columns: 65%;
+  width: 90%;
+
+  background-color: blueviolet;
+  border: 2px solid black;
+}
+
+/* Divs infos*/
+.divsInfoN {
+  grid-area: nav;
+  background: lightcoral;
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-template-rows: 50% 30% auto;
+}
+
+.divsInfoG {
+  grid-area: grafico;
+  background: lightblue;
+  border-top: 2px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.divsInfoD {
+  grid-area: descripcion;
+  display: grid;
+  grid-template-rows: 10% 45% 45%;
+  background: lightgreen;
+
+  
+}
+
+/* Contenido dentro de descripcion */
+
+.tituloD{
+background-color: aqua;
+
+}
+
+
+
+.lista1D{
+display: grid;
+grid-template-rows: 20% 80%;
+background-color: azure;
+
+}
+
+
+.lista2D{
+display: grid;
+grid-template-rows: 20% 80%;
+background-color: blue;
+
+}
+.titulo1D{
+background-color: brown;
+}
+.titulo2D{
+background-color: blueviolet;
+
+}
+.ul1D{
+display: flex;
+justify-content: start;
+background-color: aqua;
+
+}
+.ul2D{
+display: flex;
+justify-content: start;
+background-color: beige;
+}
+
+
+
+
+
+
+
+/* Contenido dentro de descripcion */
+
+
+.divsInfoI {
+  grid-area: imagen;
+  text-align: center;
+  background: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divsInfoF {
+  grid-area: footer;
+
+  background: lightseagreen;
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+/* Navs textos/Divs */
+
+.Nombre {
+  font-size: 70px;
+  
+  grid-column: 1 / span3;
+  background-color: lightcoral;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.subTitulo {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1 / span3;
+  background-color: lightcoral;
+  
+}
+
+/*vector */
+.vector1{
+  
+}
+.vector2{
+  
+}
+
+/*vector */
+.telefono {
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+ 
+  background-color: lightcoral;
+  
+}
+
+  
+.correo {
+  display: flex;
+ justify-content: center;
+ gap: 10px;
+ 
+  background-color: lightcoral;
+  
+}
+
+.ubicacion {
+  display: flex;
+ justify-content: center;
+ gap: 10px;
+ 
+  background-color: lightcoral;
+  
+}
+
+/*graficos divs */
+
+.grafTitulo {
+
+  text-align: start;
+  display: flex;
+  align-items: center;
+  grid-column: 1 / span4;
+  background-color: lightblue;
+  border-bottom: 2px solid black;
+}
+.grafico {
+  background-color: lightblue;
+  border: 2px solid black;
+}
+
+/* Divs footer */
+
+.infoIco {
+  padding-left: 20px;
+  padding-right: 20px;
+  
+
+  background-color: lightslategray;
+  ;
+}
+
+.iconosInfo {
+  display: grid;
+  grid-template-rows: 20% 80%;
+  background-color: lightblue;
+ 
+}
+
+/* Div footer 1 */
+
+.educacion{
+text-align: start;
+background-color: red;
+font-size: 17px;
+margin-bottom: 10px;
+
+}
+
+
+.listasF{
+display: grid;
+grid-template-rows: auto auto auto auto;
+background-color: ;
+
+}
+
+.subTitulo1{
+  text-align: start;
+
+  background-color: lightcoral;
+}
+
+.subTitulo2{
+text-align: start;
+  background-color: blanchedalmond
+ 
+}
+
+.ul1{
+  display: flex;
+  justify-content: start;
+
+  background-color: ;
+}
+
+.ul2{
+  display: flex;
+  justify-content: start;
+  background-color: ;
+}
+
+/* Div footer 2 */
+.hobby{
+
+background-color: aquamarine;
+
+
+}
+
+.iconos{
+
+background-color: azure;
+
+
+}
