@@ -1,27 +1,48 @@
+
+/*Boton de prueba*/
+
+.botonPrueba:hover{
+  transform: scale(1.05);
+  transition-duration: 0.3s;
+  filter: drop-shadow(1px 4px 3px #000000);  
+}
+.botonPrueba{
+transition-duration: 0.3s;
+margin: auto;
+padding: 20px 30px 20px 30px;
+background-color: #efefef;
+border: solid black;
+}
+
+/*Body*/
 body {
-  text-align: center;
+  display: flex;
+  
+  justify-content: start;
+  background-color: #efefef;
+  padding: 20px;
 }
 /*Div hoja principal*/
 .hojaBase {
+  
   display: flex;
-  justify-content: center;
+  justify-content: ;
   align-items: center;
-  background-color: #efefef;
+  
   border: 1px none black;
   width: 70%;
   margin: auto;
-  padding: 60px;
+  
 }
 /*Div contenedor de estructura*/
 
 .baseCurriculum:hover, .baseCurriculum:active :focus{
-transform: scale(1.1);
+transform: scale(1.05);
 transition-duration: 0.3s;
 filter: drop-shadow(1px 4px 3px #000000);
 
 }
 .baseCurriculum {
-  
   transition-duration: 0.3s;
   height: 1000px;
   display: grid;
@@ -203,6 +224,9 @@ width: 90%;
   grid-template-rows: 80% 10%;
   background-color: #efefef;
 }
+.grafico1Txt{
+text-align: center;
+}
 
 /*graficos 2 */
 
@@ -211,13 +235,20 @@ width: 90%;
   grid-template-rows: 80% 10%;
   background-color: #efefef;
 }
+.grafico1Txt2{
+text-align: center;
+}
 
 /*graficos 3 */
 
 .grafico3 {
+  
   display: grid;
   grid-template-rows: 80% 10%;
   background-color: #efefef;
+}
+.grafico1Txt3{
+text-align: center;
 }
 
 /*graficos 4 */
@@ -227,6 +258,10 @@ width: 90%;
   grid-template-rows: 80% 10%;
   background-color: #efefef;
 }
+.grafico1Txt4{
+text-align: center;
+}
+
 
 /*graficos 5 */
 
@@ -235,6 +270,11 @@ width: 90%;
   grid-template-rows: 80% 10%;
   background-color: #efefef;
 }
+.grafico1Txt5{
+text-align: center;
+}
+
+
 
 /* Divs footer */
 
@@ -292,10 +332,10 @@ width: 90%;
 
 /* Div footer 2 */
 .hobby {
+  text-align: start;
   padding-left: 10px;
   font-size: 20px;
-  display: flex;
-  justify-content: start;
+  
   background-color: #efefef;
 }
 
