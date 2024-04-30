@@ -13,7 +13,16 @@ body {
   padding: 60px;
 }
 /*Div contenedor de estructura*/
+
+.baseCurriculum:hover, .baseCurriculum:active :focus{
+transform: scale(1.1);
+transition-duration: 0.3s;
+filter: drop-shadow(1px 4px 3px #000000);
+
+}
 .baseCurriculum {
+  
+  transition-duration: 0.3s;
   height: 1000px;
   display: grid;
   grid-template-areas:
