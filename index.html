@@ -10,13 +10,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="/Curriculum/styles/styles.css" />
   </head>
-  <body>
+  <body id="body">
     <!--Div de la hoja principal-->
     <div class="hojaBase">
       <!--Div contenedora de estrucutura-->
       <div class="baseCurriculum" id="baseCurriculum">
         <!--Div header-->
-        <div class="divsInfoN">
+        <div class="divsInfoN" id="nav">
           <div class="Nombre"><strong>PEDRO FERNANDEZ</strong></div>
           <div class="subTitulo">
             <div class="vector1">
@@ -50,7 +50,7 @@
         </div>
         <!--Div graficos-->
 
-        <div class="divsInfoG">
+        <div class="divsInfoG" id="graficos">
           <div class="grafTitulo"><strong>PERSONAL SKILL</strong></div>
           <div class="grafico1">
             <div class="grafico1Img">
@@ -104,26 +104,27 @@
           </div>
         </div>
         <!--Div descripcion-->
-        <div class="divsInfoD">
+        <div class="divsInfoD" id="descripcion">
           <div class="tituloD"><strong>JOB EXPERIENCE</strong></div>
           <div class="lista1D">
             <div class="titulo1D">Titulo de la lista 1</div>
             <div class="ul1D">
               <ul>
                 <li>
-                  informacion de relleno, informacion de relleno, informacion de relleno
+                  informacion de relleno, informacion de relleno, informacion de
+                  relleno
                   <br />
                   informacion de relleno.
                 </li>
                 <li>
                   informacion de relleno, informacion de relleno, informacion de
                   relleno <br />
-                  informacion de relleno, 
+                  informacion de relleno,
                 </li>
                 <li>
                   informacion de relleno, informacion de relleno, informacion de
                   relleno <br />
-                  informacion de relleno, 
+                  informacion de relleno,
                 </li>
               </ul>
             </div>
@@ -135,27 +136,28 @@
                 <li>
                   informacion de relleno, informacion de relleno, informacion de
                   relleno <br />
-                  informacion de relleno, 
+                  informacion de relleno,
                 </li>
                 <li>
                   informacion de relleno, informacion de relleno, informacion de
                   relleno <br />
-                  informacion de relleno, 
+                  informacion de relleno,
                 </li>
               </ul>
             </div>
           </div>
         </div>
         <!--Div imagen -->
-        <div class="divsInfoI">
+        <div class="divsInfoI" id="imagen">
           <img
             src="/Curriculum/styles/img/perfilIMG.jpg"
             alt=""
             class="perfilImg"
+            style="border-radius: 20px;"
           />
         </div>
         <!--Div footer informacion-->
-        <div class="divsInfoF">
+        <div class="divsInfoF" id="footer">
           <div class="infoIco">
             <div class="educacion"><strong>EDUCATION</strong></div>
             <div class="listasF">
@@ -177,13 +179,8 @@
           </div>
           <div class="iconosInfo">
             <div class="hobby">
-              
-              
               <strong>HOBBY</strong>
-              
-              
-              
-              </div>
+            </div>
             <div class="iconos">
               <div class="contenedorIcons">
                 <div class="iconF">
@@ -233,7 +230,7 @@
       </div>
       <!--Div de la hoja principal-->
     </div>
-    <button class="botonPrueba"><strong>Prueba</strong></button>
+    <button class="botonPrueba" id="surprisePrueba"><strong>Prueba</strong></button>
     <script src="funciones.js"></script>
   </body>
 </html>
