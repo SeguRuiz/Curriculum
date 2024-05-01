@@ -49,8 +49,8 @@ if (graficos.style.boxShadow != '0px 2px 10px') {
     graficos.style.boxShadow = ''
 }
 
-if (graficos.style.borderBlockStartStyle != 'none') {
-    graficos.style.borderBlockStartStyle = 'none'
+if (graficos.style.borderBlockStartColor != '') {
+    graficos.style.borderBlockStartColor = ''
     
 } else {
     graficos.style.borderBlockStartStyle = 'solid'
@@ -58,7 +58,28 @@ if (graficos.style.borderBlockStartStyle != 'none') {
     graficos.style.borderRadius = '20px'
 }
 
+//Descripcion cambio
+if (descripcion.style.boxShadow != '0px 2px 10px') {
+    descripcion.style.boxShadow = '0px 2px 10px'
+} else {
+    descripcion.style.boxShadow = ''
+}
 
+//imagen cambio
+
+if (imagen.style.boxShadow != '0px 2px 10px') {
+    imagen.style.boxShadow = '0px 2px 10px'
+} else {
+    imagen.style.boxShadow = ''
+}
+
+//footer cambio
+
+if (footer.style.boxShadow != '0px 2px 10px') {
+    footer.style.boxShadow = '0px 2px 10px'
+} else {
+    footer.style.boxShadow = ''
+}
 
 
 })
