@@ -1,19 +1,52 @@
+
+/*Boton de prueba*/
+
+.botonPrueba:hover{
+  transform: scale(1.05);
+  transition-duration: 0.3s;
+  filter: drop-shadow(1px 4px 3px #000000);  
+}
+.botonPrueba{
+transition-duration: 0.3s;
+margin: auto;
+padding: 20px 30px 20px 30px;
+background-color: #efefef;
+border: solid black;
+}
+
+/*Body*/
 body {
-  text-align: center;
+  background-color: #efefef;
+  
+  display: flex;
+  
+  justify-content: start;
+  
+  padding: 20px;
 }
 /*Div hoja principal*/
 .hojaBase {
+  
   display: flex;
-  justify-content: center;
+  justify-content: ;
   align-items: center;
-  background-color: #efefef;
+  
   border: 1px none black;
   width: 70%;
   margin: auto;
-  padding: 60px;
+  
 }
 /*Div contenedor de estructura*/
+
+.baseCurriculum:hover, .baseCurriculum:active :focus{
+transform: scale(1.05);
+transition-duration: 0.3s;
+filter: drop-shadow(1px 4px 3px #000000);
+
+}
 .baseCurriculum {
+  
+  transition-duration: 0.3s;
   height: 1000px;
   display: grid;
   grid-template-areas:
@@ -24,34 +57,41 @@ body {
   grid-template-rows: 30% 15% 35% 20%;
   grid-template-columns: 65%;
   width: 90%;
-
-  background-color: blueviolet;
+  border-radius: 20px;
   border: 2px solid black;
-}
+  background-color: #efefef;
+  
 
 /* Divs infos*/
 .divsInfoN {
   grid-area: nav;
-  background: #efefef;
+  background: ;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: 50% 30% auto;
+  border-radius: 20px;
+  transition-duration: 0.3s;
 }
 
 .divsInfoG {
   grid-area: grafico;
-  background: lightblue;
+  background: ;
   border-top: 2px solid black;
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: 20% 80%;
+  transition-duration: 0.3s;
+ 
 }
 
 .divsInfoD {
   grid-area: descripcion;
   display: grid;
   grid-template-rows: 10% 45% 45%;
-  background: #efefef;
+  
+  border-radius: 20px;
+ 
+  
 }
 
 /* Contenido dentro de descripcion */
@@ -62,43 +102,43 @@ body {
   font-size: 20px;
   padding-left: 23px;
 
-  background-color: #efefef;
+  background-color:;
 }
 
 .lista1D {
   display: grid;
   grid-template-rows: 20% 80%;
-  background-color: #efefef;
+  background-color: ;
 }
 
 .lista2D {
   display: grid;
   grid-template-rows: 20% 80%;
-  background-color: #efefef;
+  background-color: ;
 }
 .titulo1D {
   display: flex;
   justify-content: start;
   align-items: end;
   padding-left: 23px;
-  background-color: #efefef;
+  background-color: ;
 }
 .titulo2D {
   display: flex;
   justify-content: start;
   align-items: end;
   padding-left: 23px;
-  background-color: #efefef;
+  background-color: ;
 }
 .ul1D {
   display: flex;
   justify-content: start;
-  background-color: #efefef;
+  background-color: ;
 }
 .ul2D {
   display: flex;
   justify-content: start;
-  background-color: #efefef;
+  background-color: ;
 }
 
 /* Contenido dentro de descripcion */
@@ -106,10 +146,13 @@ body {
 .divsInfoI {
   grid-area: imagen;
   text-align: center;
-  background: #efefef;
+  background: ;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
+ 
+  
 }
 
 .perfilImg{
@@ -119,10 +162,10 @@ width: 90%;
 
 .divsInfoF {
   grid-area: footer;
-
-  background: lightseagreen;
+ 
   display: grid;
   grid-template-columns: 50% 50%;
+  border-radius: 20px;
 }
 /* Navs textos/Divs */
 
@@ -130,7 +173,7 @@ width: 90%;
   font-size: 70px;
 
   grid-column: 1 / span3;
-  background-color: #efefef;
+  background-color: ;
   display: flex;
   align-items: end;
   justify-content: center;
@@ -142,7 +185,7 @@ width: 90%;
   justify-content: center;
   align-items: center;
   grid-column: 1 / span3;
-  background-color: #efefef;
+  background-color: ;
 }
 
 /*vector */
@@ -153,7 +196,7 @@ width: 90%;
   justify-content: center;
   gap: 10px;
 
-  background-color: #efefef;
+  background-color: ;
 }
 
 .correo {
@@ -161,7 +204,7 @@ width: 90%;
   justify-content: center;
   gap: 10px;
 
-  background-color: #efefef;
+  background-color: ;
 }
 
 .ubicacion {
@@ -169,7 +212,7 @@ width: 90%;
   justify-content: center;
   gap: 10px;
 
-  background-color: #efefef;
+  background-color: ;
 }
 
 /*graficos divs */
@@ -184,7 +227,7 @@ width: 90%;
   display: flex;
   align-items: center;
   grid-column: 1 / span4;
-  background-color: #efefef;
+  background-color: ;
 }
 
 /*graficos 1 */
@@ -192,7 +235,10 @@ width: 90%;
 .grafico1 {
   display: grid;
   grid-template-rows: 80% 10%;
-  background-color: #efefef;
+  background-color: ;
+}
+.grafico1Txt{
+text-align: center;
 }
 
 /*graficos 2 */
@@ -200,15 +246,22 @@ width: 90%;
 .grafico2 {
   display: grid;
   grid-template-rows: 80% 10%;
-  background-color: #efefef;
+  background-color: ;
+}
+.grafico1Txt2{
+text-align: center;
 }
 
 /*graficos 3 */
 
 .grafico3 {
+  
   display: grid;
   grid-template-rows: 80% 10%;
-  background-color: #efefef;
+  background-color: ;
+}
+.grafico1Txt3{
+text-align: center;
 }
 
 /*graficos 4 */
@@ -216,16 +269,25 @@ width: 90%;
 .grafico4 {
   display: grid;
   grid-template-rows: 80% 10%;
-  background-color: #efefef;
+  background-color: ;
 }
+.grafico1Txt4{
+text-align: center;
+}
+
 
 /*graficos 5 */
 
 .grafico5 {
   display: grid;
   grid-template-rows: 80% 10%;
-  background-color: #efefef;
+  background-color: ;
 }
+.grafico1Txt5{
+text-align: center;
+}
+
+
 
 /* Divs footer */
 
@@ -233,20 +295,20 @@ width: 90%;
   padding-left: 20px;
   padding-right: 20px;
 
-  background-color: #efefef;
+  background-color: ;
 }
 
 .iconosInfo {
   display: grid;
   grid-template-rows: 15% 85%;
-  background-color: #efefef;
+  background-color: ;
 }
 
 /* Div footer 1 */
 
 .educacion {
   text-align: start;
-  background-color: #efefef;
+  background-color: ;
   font-size: 20px;
   margin-bottom: 5px;
 }
@@ -260,18 +322,18 @@ width: 90%;
 .subTitulo1 {
   text-align: start;
 
-  background-color: #efefef;
+  background-color: ;
 }
 
 .subTitulo2 {
   text-align: start;
-  background-color: #efefef;
+  background-color: ;
 }
 
 .ul1 {
   display: flex;
   justify-content: start;
-
+  text-align: start
   background-color: ;
 }
 
@@ -283,24 +345,24 @@ width: 90%;
 
 /* Div footer 2 */
 .hobby {
+  text-align: start;
   padding-left: 10px;
   font-size: 20px;
-  display: flex;
-  justify-content: start;
-  background-color: #efefef;
+  
+  background-color: ;
 }
 
 .iconos {
   display: grid;
   grid-template-columns: 70% 30%;
 
-  background-color: #efefef;
+  background-color: ;
 }
 
 .contenedorIcons {
   margin-bottom: 10px;
   border-left: 2px solid black;
-  background-color: #efefef;
+  background-color: ;
   display: grid;
   grid-template-columns: auto auto;
 }
