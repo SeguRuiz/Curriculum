@@ -1,7 +1,7 @@
 //Agarrando elementos
 let hojaCurriculum = document.getElementById("baseCurriculum")
 let body = document.getElementById("body")
-
+let imagenC = document.createElement("img")
 //Parte del navbar
 let nav = document.getElementById("nav")
 //graficos
@@ -9,18 +9,22 @@ let graficos = document.getElementById("graficos")
 //descripcion
 let descripcion = document.getElementById("descripcion")
 //imagen
-let imagen = document.getElementById("imagen")
+let imagen = document.getElementById("imgPersonal")
 //footer
 let footer = document.getElementById("footer")
 //boton
 let surpriseBtn = document.getElementById("surprisePrueba")
+//boton subir
+let botonSubir = document.getElementById("botonSubir")
+//inputs
+let inputNombre = document.getElementById("inputNombre")
+let inputProfesion = document.getElementById("inputProfesion")
+let inputFoto = document.getElementById("inputFoto")
 
 
-//funciones
+//boton estructura
 surpriseBtn.addEventListener("click", () => {
 //ifs devuelta
-
-
 if (hojaCurriculum.style.gap != '30px') {
     hojaCurriculum.style.gap = '30px'
 } else {
@@ -82,18 +86,43 @@ if (footer.style.boxShadow != '0px 2px 10px') {
 }
 
 
+
 })
 
+//boton subir
+botonSubir.addEventListener("click", () =>{
 
 
+// input nombre
+
+document.getElementById("nombrePrincipal").innerHTML = inputNombre.value
+if (inputNombre.value != '') {
+    inputNombre.value = ''
+}
+else{
+    document.getElementById("nombrePrincipal").innerHTML = 'PEDRO FERNANDEZ'
+
+}
+
+// input profesion
+document.getElementById("profesion").innerHTML = inputProfesion.value
+if (inputProfesion.value != '') {
+    inputProfesion.value = ''
+}
+else{
+    document.getElementById("profesion").innerHTML = 'RECEPCIONIST'
+}
+// input foto
 
 
+imagen.src = inputFoto.value
+if (inputFoto.value != '') {
+    inputFoto.value = ''
+}
+else{
+    imagen.src = '/Curriculum/styles/img/perfilIMG.jpg'
+}
 
-
-
-
-
-
-
-
+}
+)
 
