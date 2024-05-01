@@ -42,7 +42,21 @@ if (nav.style.boxShadow != '0px 2px 10px') {
 } else {
     nav.style.boxShadow = ''
 }
-nav.style.backgroundColor = '#efefef'
+//grafico cambio
+if (graficos.style.boxShadow != '0px 2px 10px') {
+    graficos.style.boxShadow = '0px 2px 10px'
+} else {
+    graficos.style.boxShadow = ''
+}
+
+if (graficos.style.borderBlockStartStyle != 'none') {
+    graficos.style.borderBlockStartStyle = 'none'
+    
+} else {
+    graficos.style.borderBlockStartStyle = 'solid'
+    graficos.style.borderBlockStartColor = 'black'
+    graficos.style.borderRadius = '20px'
+}
 
 
 

@@ -80,7 +80,7 @@ filter: drop-shadow(1px 4px 3px #000000);
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: 20% 80%;
-  
+  transition-duration: 0.3s;
  
 }
 
