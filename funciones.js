@@ -27,6 +27,12 @@ let inputFirstHF = document.getElementById("inputFirstHF")
 let inputSecondHF = document.getElementById("inputSecondHF")
 let inputFirstHB = document.getElementById("inputFirstHB")
 let inputSecondHB = document.getElementById("inputSecondHB")
+let inputEscuela = document.getElementById("inputEscuela")
+let inputTiempoEsc = document.getElementById("inputTiempoEsc")
+let inputColegio = document.getElementById("inputColegio")
+let inputTiempoCole = document.getElementById("inputTiempoCole")
+
+console.log()
 
 
 
@@ -135,8 +141,8 @@ else{
 
 // input telefono
 document.getElementById("telefonoP").innerHTML = inputTelefono.value
-if (inputTelefono.value != '') {
-    inputTelefono.value = ''
+if (inputTelefono.value != null) {
+    inputTelefono.value = null
 }
 else{
     document.getElementById("telefonoP").innerHTML = '0000-0000'
@@ -192,6 +198,40 @@ if (inputSecondHB.value != '') {
 }
 else{
     document.getElementById("secondHB").innerHTML = 'Tu segunda habilidad blanda'
+}
+
+//Escuela inputs
+document.getElementById("escuela").innerHTML = inputEscuela.value
+if (inputEscuela.value != '') {
+    inputEscuela.value = ''
+}
+else{
+    document.getElementById("escuela").innerHTML = 'Escuela en la que cursaste'
+}
+
+document.getElementById("tiempoEsc").innerHTML = inputTiempoEsc.value
+if (inputTiempoEsc.value != '') {
+    inputTiempoEsc.value = ''
+}
+else{
+    document.getElementById("tiempoEsc").innerHTML = 'Tiempo de estancia'
+}
+
+//Colegio inputs
+document.getElementById("colegio").innerHTML = inputColegio.value
+if (inputColegio.value != '') {
+    inputColegio.value = ''
+}
+else{
+    document.getElementById("colegio").innerHTML = 'Colegio en el que cursaste'
+}
+
+document.getElementById("tiempoCole").innerHTML = inputTiempoCole.value
+if (inputTiempoCole.value != '') {
+    inputTiempoCole.value = ''
+}
+else{
+    document.getElementById("tiempoCole").innerHTML = 'Tiempo de estancia'
 }
 
 
