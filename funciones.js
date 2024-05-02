@@ -20,6 +20,11 @@ let botonSubir = document.getElementById("botonSubir")
 let inputNombre = document.getElementById("inputNombre")
 let inputProfesion = document.getElementById("inputProfesion")
 let inputFoto = document.getElementById("inputFoto")
+let inputTelefono = document.getElementById("inputTelefono")
+let inputCorreo = document.getElementById("inputCorreo")
+let inputUbicacion = document.getElementById("inputUbicacion")
+
+
 
 
 //boton estructura
@@ -122,6 +127,35 @@ if (inputFoto.value != '') {
 else{
     imagen.src = '/Curriculum/styles/img/perfilIMG.jpg'
 }
+
+
+// input telefono
+document.getElementById("telefonoP").innerHTML = inputTelefono.value
+if (inputTelefono.value != '') {
+    inputTelefono.value = ''
+}
+else{
+    document.getElementById("telefonoP").innerHTML = '6235-2359'
+}
+
+// input correo
+document.getElementById("correoP").innerHTML = inputCorreo.value
+if (inputCorreo.value != '') {
+    inputCorreo.value = ''
+}
+else{
+    document.getElementById("correoP").innerHTML = 'tuCorreo@gmail.com'
+}
+
+//input ubicacion
+document.getElementById("ubicacionP").innerHTML = inputUbicacion.value
+if (inputUbicacion.value != '') {
+    inputUbicacion.value = ''
+}
+else{
+    document.getElementById("ubicacionP").innerHTML = 'Tu ubicacion'
+}
+
 
 }
 )
