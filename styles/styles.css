@@ -1,4 +1,38 @@
+.submit{
+  margin: auto;
+  padding: 10px 20px 10px 20px;
+  background-color: #efefef;
+  border: solid black;
+  border-radius: 20px;
+}
 
+.submit:hover{
+  transform: scale(1.05);
+  transition-duration: 0.3s;
+  filter: drop-shadow(1px 4px 3px #000000);  
+}
+
+.forms{
+padding: 20px;
+background-color: #efefef;
+border: solid black;
+border-radius: 20px;
+width: 25%;
+display: grid
+;
+justify-content: center;
+align-items: center;
+}
+
+.inputs{
+margin: auto;
+border: 2px solid black;
+}
+
+.input{
+  display: flex;
+  gap: 10px;
+}
 /*Boton de prueba*/
 
 .botonPrueba:hover{
@@ -9,26 +43,28 @@
 .botonPrueba{
 transition-duration: 0.3s;
 margin: auto;
-padding: 20px 30px 20px 30px;
+padding: 10px 20px 10px 20px;
 background-color: #efefef;
 border: solid black;
+border-radius: 20px;
 }
 
 /*Body*/
 body {
   background-color: #efefef;
-  
   display: flex;
+  justify-content: center;
+  padding: 25px;
   
-  justify-content: start;
+
   
-  padding: 20px;
 }
 /*Div hoja principal*/
 .hojaBase {
   
+  
   display: flex;
-  justify-content: ;
+  
   align-items: center;
   
   border: 1px none black;
@@ -41,6 +77,7 @@ body {
 
 
 .baseCurriculum {
+  
   transition-duration: 0.3s;
   height: 1000px;
   display: grid;
@@ -66,11 +103,11 @@ body {
   grid-template-rows: 50% 30% auto;
   border-radius: 20px;
   transition-duration: 0.5s;
+  position: relative;
 }
 
 .divsInfoG {
   grid-area: grafico;
-  background: ;
   border-top: 2px solid black;
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -86,7 +123,6 @@ body {
   border-radius: 20px;
   transition-duration: 0.5s;
  
-  
 }
 
 /* Contenido dentro de descripcion */

@@ -17,7 +17,7 @@
       <div class="baseCurriculum" id="baseCurriculum">
         <!--Div header-->
         <div class="divsInfoN" id="nav">
-          <div class="Nombre"><strong>PEDRO FERNANDEZ</strong></div>
+          <div class="Nombre"><strong id="nombrePrincipal">TU NOMBRE</strong></div>
           <div class="subTitulo">
             <div class="vector1">
               <img
@@ -26,7 +26,7 @@
                 style="height: 100px; width: 235px"
               />
             </div>
-            <strong>RECEPCIONIST</strong>
+            <strong id="profesion">TU PROFESION</strong>
             <div class="vector2">
               <img
                 src="/Curriculum/styles/img/Vector.png"
@@ -37,15 +37,15 @@
           </div>
           <div class="telefono">
             <div><i class="fa-solid fa-square-phone"></i></div>
-            <div>6235-2359</div>
+            <div id="telefonoP">0000-0000</div>
           </div>
           <div class="correo">
             <div><i class="fa-solid fa-envelope-open"></i></div>
-            <div>ruiz96199@gmail.com</div>
+            <div id="correoP">tuCorreo@gmail.com</div>
           </div>
           <div class="ubicacion">
             <div><i class="fa-solid fa-location-dot"></i></div>
-            <div>ubicacion</div>
+            <div id="ubicacionP">Tu ubicacion</div>
           </div>
         </div>
         <!--Div graficos-->
@@ -105,40 +105,36 @@
         </div>
         <!--Div descripcion-->
         <div class="divsInfoD" id="descripcion">
-          <div class="tituloD"><strong>JOB EXPERIENCE</strong></div>
+          <div class="tituloD"><strong>JOB SKILL</strong></div>
           <div class="lista1D">
-            <div class="titulo1D">Titulo de la lista 1</div>
+            <div class="titulo1D">Habilidades fuertes</div>
             <div class="ul1D">
               <ul>
-                <li>
+                <li id="firstHF">
                   informacion de relleno, informacion de relleno, informacion de
                   relleno
                   <br />
                   informacion de relleno.
                 </li>
-                <li>
+                <li id="secondHF">
                   informacion de relleno, informacion de relleno, informacion de
                   relleno <br />
                   informacion de relleno,
                 </li>
-                <li>
-                  informacion de relleno, informacion de relleno, informacion de
-                  relleno <br />
-                  informacion de relleno,
-                </li>
+                
               </ul>
             </div>
           </div>
           <div class="lista2D">
-            <div class="titulo2D">Titulo de la lista 2</div>
+            <div class="titulo2D">Habilidades blandas</div>
             <div class="ul2D">
               <ul>
-                <li>
+                <li id="firstHB">
                   informacion de relleno, informacion de relleno, informacion de
                   relleno <br />
                   informacion de relleno,
                 </li>
-                <li>
+                <li id="secondHB">
                   informacion de relleno, informacion de relleno, informacion de
                   relleno <br />
                   informacion de relleno,
@@ -154,6 +150,7 @@
             alt=""
             class="perfilImg"
             style="border-radius: 20px;"
+            id="imgPersonal"
           />
         </div>
         <!--Div footer informacion-->
@@ -161,18 +158,17 @@
           <div class="infoIco">
             <div class="educacion"><strong>EDUCATION</strong></div>
             <div class="listasF">
-              <div class="subTitulo1">Escuela Fray Casiano de Madrid</div>
+              <div class="subTitulo1" id="escuela">Escuela Fray Casiano de Madrid</div>
               <div class="ul2">
                 <ul class="lista1">
-                  <li>Informacion de educacion, informacion de</li>
-                  <li>informacion de educacion, informacion de</li>
+                  <li id="tiempoEsc">informacion de educacion, informacion de</li>
                 </ul>
               </div>
-              <div class="subTitulo2">Liceo diurno Jose Marti</div>
+              <div class="subTitulo2" id="colegio">Liceo diurno Jose Marti</div>
               <div class="ul1">
                 <ul class="lista2">
-                  <li>informacion de educacion, informacion de</li>
-                  <li>informacion de educacion, informacion de</li>
+                  <li id="tiempoCole">informacion de educacion, informacion de</li>
+                  
                 </ul>
               </div>
             </div>
@@ -230,7 +226,91 @@
       </div>
       <!--Div de la hoja principal-->
     </div>
-    <button class="botonPrueba" id="surprisePrueba"><strong>Prueba</strong></button>
+    <div class="forms">
+    <button class="botonPrueba" id="surprisePrueba">
+    <strong>Estructura</strong></button>
+    
+     <div class="input">
+     <p><strong>Nombre:</strong></p>
+     <input type="text" name="" id="inputNombre" class="inputs">
+    </div>
+
+    <div class="input">
+    <p><strong>Profesion:</strong></p>
+     <input type="text" name="" id="inputProfesion" class="inputs">
+    </div>
+
+    <div class="input">
+      <p><strong>link de tu foto:</strong></p>
+      
+  <input type="text" name="" id="inputFoto" class="inputs">
+    </div>
+
+    <div class="input">
+    <p><strong>Tu numero de telefono:</strong></p>
+     <input type="number" name="" id="inputTelefono" class="inputs">
+    </div>
+
+    <div class="input">
+    <p><strong>Tu correo:</strong></p>
+     <input type="email" name="" id="inputCorreo" class="inputs">
+    </div>
+
+    <div class="input">
+    <p><strong>Tu ubicacion:</strong></p>
+     <input type="text" name="" id="inputUbicacion" class="inputs">
+    </div>
+
+    <div class="input">
+    <p><strong>Primera habilidad fuerte</strong></p>
+     <input type="text" name="" id="inputFirstHF" class="inputs">
+    </div>
+
+    <div class="input">
+    <p><strong>Segunda habilidad fuerte</strong></p>
+     <input type="text" name="" id="inputSecondHF" class="inputs">
+    </div>
+
+    <div class="input">
+    <p><strong>Primera habilidad blanda</strong></p>
+     <input type="text" name="" id="inputFirstHB" class="inputs">
+    </div>
+
+    <div class="input">
+    <p><strong>Segunda habilidad blanda</strong></p>
+     <input type="text" name="" id="inputSecondHB" class="inputs">
+    </div>
+
+     <div class="input">
+    <p><strong>Escuela en la que cursaste:</strong></p>
+     <input type="text" name="" id="inputEscuela" class="inputs">
+    </div>
+
+     <div class="input">
+    <p><strong>Tiempo en el que estuviste ahi:</strong></p>
+     <input type="text" name="" id="inputTiempoEsc" class="inputs">
+    </div>
+
+     <div class="input">
+    <p><strong>Colegio en el que cursaste:</strong></p>
+     <input type="text" name="" id="inputColegio" class="inputs">
+    </div>
+
+     <div class="input">
+    <p><strong>Tiempo en el que estuviste ahi:</strong></p>
+     <input type="text" name="" id="inputTiempoCole" class="inputs">
+    </div>
+
+
+
+    <button class="submit" id="botonSubir"><strong>Subir</strong></button>
+    </div>
+
+
+    </div class="input">
+    
+    </div class="input">
     <script src="funciones.js"></script>
+
   </body>
 </html>
