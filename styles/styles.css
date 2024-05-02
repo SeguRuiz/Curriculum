@@ -1,5 +1,5 @@
 
-/*Boton de subir estilos*/
+/*Boton de subir, estilos*/
 .submit{
   margin: auto;
   padding: 10px 20px 10px 20px;
@@ -7,7 +7,7 @@
   border: solid black;
   border-radius: 20px;
 }
-/*Boton de subir hover*/
+/*Boton de subir, hover*/
 .submit:hover{
   transform: scale(1.05);
   transition-duration: 0.3s;
