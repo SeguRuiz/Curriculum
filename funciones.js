@@ -23,6 +23,10 @@ let inputFoto = document.getElementById("inputFoto")
 let inputTelefono = document.getElementById("inputTelefono")
 let inputCorreo = document.getElementById("inputCorreo")
 let inputUbicacion = document.getElementById("inputUbicacion")
+let inputFirstHF = document.getElementById("inputFirstHF")
+let inputSecondHF = document.getElementById("inputSecondHF")
+let inputFirstHB = document.getElementById("inputFirstHB")
+let inputSecondHB = document.getElementById("inputSecondHB")
 
 
 
@@ -95,7 +99,7 @@ if (footer.style.boxShadow != '0px 2px 10px') {
 })
 
 //boton subir
-botonSubir.addEventListener("click", () =>{
+botonSubir.addEventListener("click", () => {
 
 
 // input nombre
@@ -105,7 +109,7 @@ if (inputNombre.value != '') {
     inputNombre.value = ''
 }
 else{
-    document.getElementById("nombrePrincipal").innerHTML = 'PEDRO FERNANDEZ'
+    document.getElementById("nombrePrincipal").innerHTML = 'TU NOMBRE'
 
 }
 
@@ -115,7 +119,7 @@ if (inputProfesion.value != '') {
     inputProfesion.value = ''
 }
 else{
-    document.getElementById("profesion").innerHTML = 'RECEPCIONIST'
+    document.getElementById("profesion").innerHTML = 'TU PROFESION'
 }
 // input foto
 
@@ -135,7 +139,7 @@ if (inputTelefono.value != '') {
     inputTelefono.value = ''
 }
 else{
-    document.getElementById("telefonoP").innerHTML = '6235-2359'
+    document.getElementById("telefonoP").innerHTML = '0000-0000'
 }
 
 // input correo
@@ -154,6 +158,40 @@ if (inputUbicacion.value != '') {
 }
 else{
     document.getElementById("ubicacionP").innerHTML = 'Tu ubicacion'
+}
+
+// habilidades fuertes
+document.getElementById("firstHF").innerHTML = inputFirstHF.value
+if (inputFirstHF.value != '') {
+    inputFirstHF.value = ''
+}
+else{
+    document.getElementById("firstHF").innerHTML = 'Tu primera habilidad fuerte'
+}
+
+document.getElementById("secondHF").innerHTML = inputSecondHF.value
+if (inputSecondHF.value != '') {
+    inputSecondHF.value = ''
+}
+else{
+    document.getElementById("secondHF").innerHTML = 'Tu segunda habilidad fuerte'
+}
+
+//habilidades blandas 
+document.getElementById("firstHB").innerHTML = inputFirstHB.value
+if (inputFirstHB.value != '') {
+    inputFirstHB.value = ''
+}
+else{
+    document.getElementById("firstHB").innerHTML = 'Tu primera habilidad blanda'
+}
+
+document.getElementById("secondHB").innerHTML = inputSecondHB.value
+if (inputSecondHB.value != '') {
+    inputSecondHB.value = ''
+}
+else{
+    document.getElementById("secondHB").innerHTML = 'Tu segunda habilidad blanda'
 }
 
 
