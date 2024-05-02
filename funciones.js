@@ -34,7 +34,7 @@ let inputTiempoCole = document.getElementById("inputTiempoCole");
 
 console.log();
 
-//boton estructura
+//boton estructura separador
 surpriseBtn.addEventListener("click", () => {
   //ifs devuelta
   if (hojaCurriculum.style.gap != "30px") {

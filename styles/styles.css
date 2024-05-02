@@ -1,3 +1,5 @@
+
+/*Boton de subir estilos*/
 .submit{
   margin: auto;
   padding: 10px 20px 10px 20px;
@@ -5,13 +7,13 @@
   border: solid black;
   border-radius: 20px;
 }
-
+/*Boton de subir hover*/
 .submit:hover{
   transform: scale(1.05);
   transition-duration: 0.3s;
   filter: drop-shadow(1px 4px 3px #000000);  
 }
-
+/*Estilos de los forms*/
 .forms{
 padding: 20px;
 background-color: #efefef;
@@ -33,7 +35,7 @@ border: 2px solid black;
   display: flex;
   gap: 10px;
 }
-/*Boton de prueba*/
+/*Boton de estructura*/
 
 .botonPrueba:hover{
   transform: scale(1.05);
@@ -49,7 +51,7 @@ border: solid black;
 border-radius: 20px;
 }
 
-/*Body*/
+/*Body estilos*/
 body {
   background-color: #efefef;
   display: flex;
@@ -73,9 +75,7 @@ body {
   
 }
 /*Div contenedor de estructura*/
-
-
-
+/*Areas de la estrcutura*/
 .baseCurriculum {
   
   transition-duration: 0.3s;
@@ -94,7 +94,7 @@ body {
   background-color: #efefef;
   
 }
-/* Divs infos*/
+/* Div principal navbar*/
 .divsInfoN {
   grid-area: nav;
   background: ;
@@ -105,7 +105,7 @@ body {
   transition-duration: 0.5s;
   position: relative;
 }
-
+/* Div princcipal de los graficos*/
 .divsInfoG {
   grid-area: grafico;
   border-top: 2px solid black;
@@ -115,7 +115,7 @@ body {
   transition-duration: 0.5s;
  
 }
-
+/*Div principal descripcion*/
 .divsInfoD {
   grid-area: descripcion;
   display: grid;
@@ -125,8 +125,7 @@ body {
  
 }
 
-/* Contenido dentro de descripcion */
-
+/*HF titulo*/
 .tituloD {
   display: flex;
   justify-content: start;
@@ -135,18 +134,19 @@ body {
 
   background-color:;
 }
-
+/*div mi lista 1 descripcion*/
 .lista1D {
   display: grid;
   grid-template-rows: 20% 80%;
-  background-color: ;
+  
 }
-
+/*div mi lista 2 descripcion*/
 .lista2D {
   display: grid;
   grid-template-rows: 20% 80%;
   background-color: ;
 }
+/*div titulo lista 1 descripcion*/
 .titulo1D {
   display: flex;
   justify-content: start;
@@ -154,6 +154,7 @@ body {
   padding-left: 23px;
   background-color: ;
 }
+/*div titulo lista 2 descripcion*/
 .titulo2D {
   display: flex;
   justify-content: start;
@@ -161,11 +162,13 @@ body {
   padding-left: 23px;
   background-color: ;
 }
+/*lista 1 posicion*/
 .ul1D {
   display: flex;
   justify-content: start;
   background-color: ;
 }
+/*lista 2 posicion*/
 .ul2D {
   display: flex;
   justify-content: start;
@@ -174,6 +177,7 @@ body {
 
 /* Contenido dentro de descripcion */
 
+/*Div principal imagen*/
 .divsInfoI {
   grid-area: imagen;
   text-align: center;
@@ -186,12 +190,12 @@ body {
  
   
 }
-
+/*Imagen*/
 .perfilImg{
 height: 95%;
 width: 90%;
 }
-
+/*div principal footer*/
 .divsInfoF {
   grid-area: footer;
   display: grid;
@@ -199,8 +203,7 @@ width: 90%;
   border-radius: 20px;
   transition-duration: 0.5s;
 }
-/* Navs textos/Divs */
-
+/*Nombre principal div*/
 .Nombre {
   font-size: 70px;
 
@@ -210,7 +213,7 @@ width: 90%;
   align-items: end;
   justify-content: center;
 }
-
+/*Div profesion*/
 .subTitulo {
   font-size: 30px;
   display: flex;
@@ -220,9 +223,7 @@ width: 90%;
   background-color: ;
 }
 
-/*vector */
-
-/*vector */
+/*Div telefono*/
 .telefono {
   display: flex;
   justify-content: center;
@@ -230,7 +231,7 @@ width: 90%;
 
   background-color: ;
 }
-
+/*Div correo*/
 .correo {
   display: flex;
   justify-content: center;
@@ -238,7 +239,7 @@ width: 90%;
 
   background-color: ;
 }
-
+/*Div ubicacion*/
 .ubicacion {
   display: flex;
   justify-content: center;
@@ -322,7 +323,7 @@ text-align: center;
 
 
 /* Divs footer */
-
+/*Div principal educacion*/
 .infoIco {
   padding-left: 20px;
   padding-right: 20px;
@@ -330,6 +331,7 @@ text-align: center;
   background-color: ;
 }
 
+/*Div principal cuadricula iconos*/
 .iconosInfo {
   display: grid;
   grid-template-rows: 15% 85%;
@@ -337,7 +339,7 @@ text-align: center;
 }
 
 /* Div footer 1 */
-
+/*Titulo educacion*/
 .educacion {
   text-align: start;
   background-color: ;
@@ -345,30 +347,31 @@ text-align: center;
   margin-bottom: 5px;
 }
 
+/*Escuela/colegio*/
 .listasF {
   display: grid;
   grid-template-rows: auto auto auto auto;
   background-color: ;
 }
-
+/*Escuela titulo*/
 .subTitulo1 {
   text-align: start;
 
   background-color: ;
 }
-
+/*Colegio titulo*/
 .subTitulo2 {
   text-align: start;
   background-color: ;
 }
-
+/*lista 1 escu*/
 .ul1 {
   display: flex;
   justify-content: start;
   text-align: start
   background-color: ;
 }
-
+/*lista 1 cole*/
 .ul2 {
   display: flex;
   justify-content: start;
@@ -376,6 +379,8 @@ text-align: center;
 }
 
 /* Div footer 2 */
+
+/*hobby titulo*/
 .hobby {
   text-align: start;
   padding-left: 10px;
@@ -383,7 +388,7 @@ text-align: center;
   
   background-color: ;
 }
-
+/*iconos div principal*/
 .iconos {
   display: grid;
   grid-template-columns: 70% 30%;
@@ -391,6 +396,7 @@ text-align: center;
   background-color: ;
 }
 
+/*contenedor cuadricula*/
 .contenedorIcons {
   margin-bottom: 10px;
   border-left: 2px solid black;
@@ -398,17 +404,18 @@ text-align: center;
   display: grid;
   grid-template-columns: auto auto;
 }
-
+/*cuadricula iconos*/
 .iconF {
   display: grid;
   justify-content: center;
   grid-template-rows: 70% 30%;
+  
 }
-
+/*icono cuadricula*/
 .imagIcon {
   background-color: ;
 }
-
+/*texto del icono*/
 .imagIconT {
   width: 45px;
   height: 45px;
